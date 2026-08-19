@@ -21,7 +21,9 @@ sitemap.xml       Sitemap
 
 **Stato attuale**: il repository è già creato e pubblicato su
 <https://github.com/sequico/www.studiosequi.com> (pubblico) e GitHub Pages è
-attivo su <https://sequico.github.io/www.studiosequi.com/>.
+attivo su <https://sequico.github.io/www.studiosequi.com/>. Il custom domain
+`studiosequi.com` è impostato in Pages (file `CNAME` nel repo): per andare
+online basta puntare il DNS (vedi sotto).
 
 Per un deploy da zero (riferimento):
 
@@ -29,8 +31,11 @@ Per un deploy da zero (riferimento):
    nella branch principale.
 2. Nel repository: **Settings → Pages → Source → Deploy from a branch → main → / (root) → Save**.
 3. Il sito sarà online all'indirizzo `https://<utente>.github.io/www.studiosequi.com/`.
-4. Se il dominio `www.studiosequi.com` è già registrato, in **Settings → Pages**
-   aggiungi il custom domain e configura il record CNAME sul DNS del dominio.
+4. Se il dominio `studiosequi.com` è già registrato, in **Settings → Pages**
+   aggiungi il custom domain `studiosequi.com` (file `CNAME` già presente nel
+   repo) e sul DNS del dominio sostituisci il record A del dominio nudo con i
+   quattro indirizzi GitHub Pages:
+   `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
 
 Il sito è interamente statico: non richiede build, generatore o dipendenze.
 

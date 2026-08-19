@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.studiosequi.com/sitemap.xml
+Sitemap: https://studiosequi.com/sitemap.xml
