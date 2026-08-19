@@ -19,6 +19,12 @@ sitemap.xml       Sitemap
 
 ## Pubblicazione su GitHub Pages
 
+**Stato attuale**: il repository è già creato e pubblicato su
+<https://github.com/sequico/www.studiosequi.com> (pubblico) e GitHub Pages è
+attivo su <https://sequico.github.io/www.studiosequi.com/>.
+
+Per un deploy da zero (riferimento):
+
 1. Crea un repository su GitHub (es. `www.studiosequi.com`) e carica questi file
    nella branch principale.
 2. Nel repository: **Settings → Pages → Source → Deploy from a branch → main → / (root) → Save**.
